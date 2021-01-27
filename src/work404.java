@@ -172,7 +172,7 @@ public class work404 extends JFrame {
 
 
 
-                int pkg2 = Integer.parseInt(field1.getText())*49000;
+                int pkg2 = Integer.parseInt(field2.getText())*49000;
                 String pkgTxt2 = "2) แพคเกจทัวร์ประเทศบัลแกเรีย ราคา 49,000 บาท / คน   จำนวน "+field2.getText()+" คน = "+ pkg2+" บาท";
                 double pkgCar2 = 0;
                 if (checkboxCar2.isSelected()){
@@ -188,7 +188,7 @@ public class work404 extends JFrame {
 
 
 
-                int pkg3 = Integer.parseInt(field1.getText())*48000;
+                int pkg3 = Integer.parseInt(field3.getText())*48000;
                 String pkgTxt3 = "3) แพคเกจทัวร์ประเทศโปแลนด์ ราคา 48,000 บาท / คน    จำนวน "+field3.getText()+" คน = "+ pkg3+" บาท";
                 double pkgCar3 = 0;
                 if (checkboxCar3.isSelected()){
@@ -204,7 +204,7 @@ public class work404 extends JFrame {
 
 
 
-                int pkg4 = Integer.parseInt(field1.getText())*47000;
+                int pkg4 = Integer.parseInt(field4.getText())*47000;
                 String pkgTxt4 = "4) แพคเกจทัวร์ประเทศโมนาโก ราคา 47,000 บาท / คน    จำนวน "+field4.getText()+" คน = "+ pkg4+" บาท";
                 double pkgCar4 = 0;
                 if (checkboxCar4.isSelected()){
@@ -220,7 +220,7 @@ public class work404 extends JFrame {
 
 
 
-                int pkg5 = Integer.parseInt(field1.getText())*46000;
+                int pkg5 = Integer.parseInt(field5.getText())*46000;
                 String pkgTxt5 = "5) แพคเกจทัวร์ประเทศสเปน ราคา 46,000 บาท / คน        จำนวน "+field5.getText()+" คน = "+ pkg5+" บาท";
                 double pkgCar5 = 0;
                 if (checkboxCar5.isSelected()){

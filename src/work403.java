@@ -111,16 +111,16 @@ public class work403 extends JFrame {
                 int pkg1 = Integer.parseInt(field1.getText())*50000;
                 rtxt1.setText("1) แพคเกจทัวร์ประเทศโปรตุเกส ราคา 50,000 บาท / คน   จำนวน "+field1.getText()+" คน = "+ pkg1+" บาท");
 
-                int pkg2 = Integer.parseInt(field1.getText())*49000;
+                int pkg2 = Integer.parseInt(field2.getText())*49000;
                 rtxt2.setText("2) แพคเกจทัวร์ประเทศบัลแกเรีย ราคา 49,000 บาท / คน   จำนวน "+field2.getText()+" คน = "+ pkg2+" บาท");
 
-                int pkg3 = Integer.parseInt(field1.getText())*48000;
+                int pkg3 = Integer.parseInt(field3.getText())*48000;
                 rtxt3.setText("3) แพคเกจทัวร์ประเทศโปแลนด์ ราคา 48,000 บาท / คน    จำนวน "+field3.getText()+" คน = "+ pkg3+" บาท");
 
-                int pkg4 = Integer.parseInt(field1.getText())*47000;
+                int pkg4 = Integer.parseInt(field4.getText())*47000;
                 rtxt4.setText("4) แพคเกจทัวร์ประเทศโมนาโก ราคา 47,000 บาท / คน    จำนวน "+field4.getText()+" คน = "+ pkg4+" บาท");
 
-                int pkg5 = Integer.parseInt(field1.getText())*46000;
+                int pkg5 = Integer.parseInt(field5.getText())*46000;
                 rtxt5.setText("5) แพคเกจทัวร์ประเทศสเปน ราคา 46,000 บาท / คน        จำนวน "+field5.getText()+" คน = "+ pkg5+" บาท");
 
                 sum.setText("รวมทั้งสิ้น = "+( pkg1+pkg2+pkg3+pkg4+pkg5 )+" บาท");
